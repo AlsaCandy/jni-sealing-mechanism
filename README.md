@@ -60,35 +60,6 @@ Feel free to submit issues or pull requests. Contributions are welcome!
 This project is licensed under the MIT License - see the LICENSE file for details.
 ```
 
----
 
-### Step 5: Add Other Files
 
-1. **LICENSE**:
-   - Click **Add file > Create new file**.
-   - Name it `LICENSE` and add the MIT License text. Copy the license content I provided in the previous step if needed.
 
-2. **Create `.gitignore`**:
-   - Again, go to **Add file > Create new file**.
-   - Name it `.gitignore` and paste the following content:
-   
-     ```text
-     # Ignore class files and compiled libraries
-     *.class
-     *.so
-     *.o
-
-     # Ignore backup and temporary files
-     *~
-     .DS_Store
-     ```
-
-3. **Upload the C++ File (`jni_seal_example.cpp`) in `src/` Folder**:
-   - Navigate to the `src/` folder.
-   - Click **Add file > Upload files** and upload the `jni_seal_example.cpp` file here.
-
-4. **Convert Report to Markdown and Add to `docs/` Folder**:
-   - You can convert the report document into a markdown format for easier readability on GitHub.
-   - If you need help with converting this file, let me know, and I can guide you through it.
-
--
